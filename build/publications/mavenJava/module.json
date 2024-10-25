@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "dev.emirman.sdk",
+    "module": "paytr-java-sdk",
+    "version": "1.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.10.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "paytr-java-sdk-1.0.0-SNAPSHOT.jar",
+          "url": "paytr-java-sdk-1.0.0-SNAPSHOT.jar",
+          "size": 22219,
+          "sha512": "e4fede1e92b376c4391c63d1de144b961685132a9904c4d3adc86f4d807557791a4d93799a50cde42f8bc402f316d6911c22b4a1923c83cb3f35ac21e639f8a9",
+          "sha256": "29dfcf0f87c12b226992f80bc8dfbafda485fecf8a7cc6a90d2d0ad69051d3d3",
+          "sha1": "27ef43bcd7317b5a71fcacd5c7484eb8fbf06a3e",
+          "md5": "6c3083a224363ec9d122069efa038615"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.18.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "paytr-java-sdk-1.0.0-SNAPSHOT.jar",
+          "url": "paytr-java-sdk-1.0.0-SNAPSHOT.jar",
+          "size": 22219,
+          "sha512": "e4fede1e92b376c4391c63d1de144b961685132a9904c4d3adc86f4d807557791a4d93799a50cde42f8bc402f316d6911c22b4a1923c83cb3f35ac21e639f8a9",
+          "sha256": "29dfcf0f87c12b226992f80bc8dfbafda485fecf8a7cc6a90d2d0ad69051d3d3",
+          "sha1": "27ef43bcd7317b5a71fcacd5c7484eb8fbf06a3e",
+          "md5": "6c3083a224363ec9d122069efa038615"
+        }
+      ]
+    }
+  ]
+}
