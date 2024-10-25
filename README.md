@@ -1,4 +1,4 @@
-# PayTR API Integration - Request Factory
+# PayTR API Integration - JAVA SDK
 
 This Kotlin project provides a comprehensive factory class to facilitate seamless integration with the PayTR payment gateway. It enables creating, sending, and handling payment requests, callback verification, and refund requests to PayTR, with fully customizable configurations. 
 
