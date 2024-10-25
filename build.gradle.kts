@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "dev.emirman.sdk"
-version = "1.0.0-SNAPSHOT"
+version = "1.0.0"
 
 val jacksonVersion by extra("2.18.0")
 val okhttpVersion by extra("4.12.0")
