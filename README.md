@@ -50,6 +50,6 @@ fun main() {
     )
 
     RequestFactory.config = config
-    RequestFactory.pay(pay)
+    val html = RequestFactory.pay(pay)
 }
 ```
