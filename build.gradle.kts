@@ -5,7 +5,7 @@ plugins {
     kotlin("jvm") version "2.0.20"
 }
 
-group = "dev.emirman.sdk"
+group = "dev.emirman"
 version = "1.0.0"
 
 val jacksonVersion by extra("2.18.0")

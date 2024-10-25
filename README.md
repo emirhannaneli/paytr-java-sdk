@@ -19,7 +19,7 @@ repositories {
 }
 
 dependencies {
-    implementation("dev.emirman.sdk:paytr-java-sdk:<VERSION>")
+    implementation("dev.emirman:paytr-java-sdk:<VERSION>")
 }
 ```
 
