@@ -14,7 +14,7 @@ This Kotlin project provides a comprehensive factory class to facilitate seamles
 ```groovy
 repositories {
     maven {
-        url = uri("https://repo.emirman.dev/repository/maven-public/")
+        url = uri("https://repo.emirman.dev")
     }
 }
 ```
