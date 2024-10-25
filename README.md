@@ -17,6 +17,10 @@ repositories {
         url = uri("https://repo.emirman.dev")
     }
 }
+
+dependencies {
+    implementation("dev.emirman.sdk:paytr-java-sdk:<VERSION>")
+}
 ```
 
 ## Example
