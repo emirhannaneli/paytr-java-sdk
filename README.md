@@ -9,6 +9,16 @@ This Kotlin project provides a comprehensive factory class to facilitate seamles
 - **Refund Requests**: Issue refunds for specified orders.
 - **Configuration-based**: Set up via a `PayTRConfig` object.
 
+## Repository
+
+```groovy
+repositories {
+    maven {
+        url = uri("https://repo.emirman.dev/repository/maven-public/")
+    }
+}
+```
+
 ## Example
 ```kotlin
 fun main() {
